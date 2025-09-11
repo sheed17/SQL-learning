@@ -73,3 +73,38 @@ WHERE hire_date IS NULL;
 ##### SELECT #######
 
 
+
+
+##### UPDATE and DELETE #####
+
+/*UPDATE employees
+SET hourly_wage = 20.50
+WHERE employee_id = 5;
+
+SELECT * FROM employees;*/
+
+
+/*UPDATE employees
+SET hourly_wage = 21.00,
+	hire_date = "2025-06-02"
+WHERE employee_id = 5;*/
+
+
+/*UPDATE employees
+SET hourly_wage = null
+WHERE employee_id = 4;
+
+SELECT * FROM employees;employees*/
+
+/*DELETE FROM employees
+WHERE employee_id = 6;
+
+SELECT * FROM employees;*/
+
+/*UPDATE employees
+SET hourly_wage = 42.50
+WHERE employee_id = 4;
+SELECT * FROM employees;*/
+##### UPDATE and DELETE #####
+
+
