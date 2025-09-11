@@ -49,3 +49,27 @@ SELECT * FROM employees; */
 ##### TABLES and ROWS #####
 
 
+
+
+##### SELECT #######
+#SELECT * FROM employees;
+
+/*SELECT first_name, last_name
+FROM employees;*/
+
+/*SELECT * FROM employees
+WHERE first_name = "Stevie";*/
+
+/*SELECT * FROM employees
+WHERE hourly_wage > 21.50;*/
+
+/*SELECT * FROM employees
+WHERE hire_date IS NOT NULL;*/
+
+
+SELECT * FROM employees
+WHERE hire_date IS NULL;
+
+##### SELECT #######
+
+
