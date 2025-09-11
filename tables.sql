@@ -29,4 +29,23 @@ MODIFY COLUMN email VARCHAR(100);*/
 MODIFY email VARCHAR(100)
 AFTER last_name*/
 
-##### TABLES and actions #####
+##### TABLES and COLUMNS #####
+
+
+##### TABLES and ROWS #####
+
+/*INSERT INTO employees
+VALUES (2, "Dylan", "Billin", 24.50, "2025-10-23"), 
+	   (3, "Jimmy", "Stevens", 22.50, "2025-09-21"), 
+       (4, "Braden", "Manjam", 21.50, "2025-08-30"), 
+       (5, "Steve", "Baldwin", 19.50, "2025-06-21");
+SELECT * FROM employees;*/
+
+/*
+INSERT INTO employees(employee_id, first_name, last_name)
+VALUES(6, "Billy", "John")
+SELECT * FROM employees; */
+
+##### TABLES and ROWS #####
+
+
