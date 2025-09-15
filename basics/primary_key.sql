@@ -15,3 +15,24 @@ VALUES
 # in case you forgot
 ALTER TABLE transactions
 ADD CONSTRAINT PRIMARY KEY(transaction_id);
+
+
+
+#AUTO_INCREMENT - (naturally will start at 1)this will automatically increment the unique identifier when mixed with primary key and increment by 1
+
+CREATE TABLE transactions(
+	transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    amount DECIMAL(5,2)
+
+);
+
+#i set the value to start at 1000 and autoincrement from here
+ALTER TABLE transactions
+auto_increment = 1000;
+
+INSERT INTO transactions(amount)
+VALUES
+(4.99),
+(5.99);
+
+SELECT * FROM transactions;
