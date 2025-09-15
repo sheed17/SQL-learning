@@ -1,0 +1,13 @@
+CREATE TABLE TEST(
+	my_date DATE,
+    my_time TIME,
+    my_datetime DATETIME
+
+
+);
+
+INSERT INTO TEST
+VALUES
+(CURRENT_DATE(), CURRENT_TIME(), NOW());
+
+SELECT * FROM TEST;
