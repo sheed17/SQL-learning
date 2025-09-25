@@ -30,3 +30,13 @@ GROUP BY rep_id;
 SELECT sales_year, MIN(sales_total)
 FROM sales_totals
 GROUP BY sales_year;
+
+
+#ROLLUP- produces another row and gives the grand total of the group by
+SELECT SUM(amount), order_date
+FROM transactions
+GROUP BY order_date WITH ROLLUP;
+
+SELECT customer_id, COUNT(order_date) AS "amount ordered on one day"
+FROM transactions
+GROUP BY customer_id WITH ROLLUP;
