@@ -3,8 +3,8 @@
 #imagine a dataset filled with millions of values
 
 
-/*CREATE INDEX last_name_idx 
-ON employees(last_name);*/
+CREATE INDEX last_name_idx 
+ON employees(last_name);
 SHOW INDEXES FROM employees;
 
 SELECT * FROM employees
